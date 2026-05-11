@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="64" height="64" rx="12" fill="url(#bg)"/>
+  <!-- Shield -->
+  <path d="M32 8 L52 16 L52 34 C52 46 32 56 32 56 C32 56 12 46 12 34 L12 16 Z" fill="url(#shield)" opacity="0.9"/>
+  <!-- Magnifying glass circle -->
+  <circle cx="29" cy="30" r="8" fill="none" stroke="#fff" stroke-width="3"/>
+  <!-- Magnifying glass handle -->
+  <line x1="35" y1="36" x2="43" y2="44" stroke="#ef4444" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Alert dot on top of shield -->
+  <circle cx="44" cy="14" r="6" fill="#ef4444"/>
+  <text x="44" y="18" text-anchor="middle" font-size="8" font-weight="bold" fill="#fff">!</text>
+</svg>

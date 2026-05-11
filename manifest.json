@@ -1,17 +1,27 @@
 {
-  "name": "ScamCheck — AI Scam Detector",
+  "name": "ScamCheck — AI Scam Detector India",
   "short_name": "ScamCheck",
-  "description": "Free AI scam detector for India. Paste any message, number or link.",
+  "description": "Free AI scam detector for India. Check any suspicious message, link or phone number for phishing, UPI fraud & cyber scams.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#0a0f1e",
   "theme_color": "#6366f1",
   "orientation": "portrait-primary",
-  "icons": [
-    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
-  ],
-  "categories": ["utilities", "security"],
   "lang": "en-IN",
-  "dir": "ltr"
+  "dir": "ltr",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ],
+  "categories": ["utilities", "security", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Check a Message",
+      "short_name": "Check",
+      "description": "Paste a suspicious message and check instantly",
+      "url": "/?action=check",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    }
+  ]
 }

@@ -1,3 +1,9 @@
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /*.json$
+
+# Crawl-delay for polite bots
+Crawl-delay: 10
+
 Sitemap: https://scamcheck.asquaresolution.com/sitemap.xml

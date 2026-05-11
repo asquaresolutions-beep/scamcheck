@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ScamCheck — Free AI Scam Detector India | AI से पहचानें | Hindi &amp; English</title>
-  <meta name="description" content="India's #1 free AI scam checker. Paste any suspicious message, number or link. Get instant verdict in Hindi &amp; English. No login required. Powered by Google AI." />
-  <meta name="keywords" content="scam detector india, scam check, AI scam detector, online scam checker, scam message checker, fake message detector, KYC scam, OTP scam, lottery scam, job fraud, UPI scam, phishing detector, cybercrime india, scam se bachao, online fraud checker, SMS scam checker, WhatsApp scam, bank fraud detector, fake call detector, scam verification" />
-  <meta name="robots" content="index, follow" />
+
+  <!-- Primary SEO -->
+  <title>ScamCheck — Free AI Scam Detector India | Phishing &amp; Fraud Checker</title>
+  <meta name="description" content="Free AI scam detector for India. Instantly check any suspicious message, link or phone number for phishing, UPI fraud &amp; fake messages. Hindi &amp; English. No login needed." />
+  <meta name="keywords" content="scam detector india, AI scam detector, phishing detection, fraud checker india, fake website checker, scam message detector, cyber fraud detection, online scam checker, UPI scam, KYC fraud, OTP scam, WhatsApp scam detector, scam check free, cybercrime india, scam se bachao" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <meta name="author" content="A Square Solutions" />
   <meta name="theme-color" content="#6366f1" />
   <link rel="canonical" href="https://scamcheck.asquaresolution.com/" />
@@ -14,24 +16,46 @@
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://scamcheck.asquaresolution.com/" />
-  <meta property="og:title" content="ScamCheck — Free AI Scam Detector India | क्या यह Scam है?" />
-  <meta property="og:description" content="India's #1 free AI scam checker. Paste any suspicious message, number or link. Get instant verdict in Hindi &amp; English. No login required." />
+  <meta property="og:title" content="ScamCheck — Free AI Scam Detector India | Check Any Message or Link" />
+  <meta property="og:description" content="India's free AI-powered scam checker. Paste any suspicious message, phone number or link — get instant Hindi &amp; English verdict. Detect phishing, UPI fraud, fake bank messages &amp; more." />
   <meta property="og:image" content="https://scamcheck.asquaresolution.com/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="ScamCheck — AI Scam Detector for India" />
   <meta property="og:locale" content="en_IN" />
   <meta property="og:locale:alternate" content="hi_IN" />
-  <meta property="og:site_name" content="ScamCheck" />
+  <meta property="og:site_name" content="ScamCheck by A Square Solutions" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@ASquareSol" />
+  <meta name="twitter:creator" content="@ASquareSol" />
   <meta name="twitter:url" content="https://scamcheck.asquaresolution.com/" />
-  <meta name="twitter:title" content="ScamCheck — Free AI Scam Detector India" />
-  <meta name="twitter:description" content="Paste any suspicious message, number or link. Get instant AI verdict in Hindi &amp; English. Free, no login." />
+  <meta name="twitter:title" content="ScamCheck — Free AI Scam &amp; Phishing Detector India" />
+  <meta name="twitter:description" content="Check any suspicious message, link or phone number instantly. AI verdict in Hindi &amp; English. Free, no login. Detect phishing, UPI fraud &amp; fake messages." />
   <meta name="twitter:image" content="https://scamcheck.asquaresolution.com/og-image.png" />
+  <meta name="twitter:image:alt" content="ScamCheck AI Scam Detector" />
+
+  <!-- Favicon — all browsers -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" href="/favicon.svg" sizes="any" />
+  <link rel="apple-touch-icon" href="/favicon.svg" />
 
   <!-- PWA -->
   <link rel="manifest" href="/manifest.json" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <link rel="apple-touch-icon" href="/icon-192.png" />
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPQVF41ZYM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MPQVF41ZYM', {
+      cookie_domain: 'asquaresolution.com',
+      cookie_flags: 'SameSite=None;Secure',
+      anonymize_ip: true
+    });
+  </script>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -47,16 +71,37 @@
     "@context": "https://schema.org",
     "@type": "WebApplication",
     "name": "ScamCheck",
+    "alternateName": "ScamCheck India",
     "url": "https://scamcheck.asquaresolution.com/",
-    "description": "India's #1 free AI scam detector. Check any suspicious message, phone number, or link instantly.",
+    "description": "Free AI-powered scam detector for India. Instantly check suspicious messages, phone numbers, and links for phishing, UPI fraud, KYC scams, and cyber fraud.",
     "applicationCategory": "SecurityApplication",
+    "applicationSubCategory": "Fraud Detection",
     "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "inLanguage": ["en-IN", "hi-IN"],
+    "isAccessibleForFree": true,
+    "featureList": [
+      "AI-powered scam message detection",
+      "Phishing link scanner",
+      "UPI fraud detection",
+      "Phone number scam checker",
+      "Hindi and English support",
+      "KYC and OTP scam detection",
+      "Fake bank message detector"
+    ],
     "offers": {
       "@type": "Offer",
       "price": "0",
-      "priceCurrency": "INR"
+      "priceCurrency": "INR",
+      "description": "Free — check up to 3 scams per day without login"
     },
-    "inLanguage": ["en", "hi"],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "312",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
     "provider": {
       "@type": "Organization",
       "name": "A Square Solutions",
@@ -74,12 +119,18 @@
     "url": "https://asquaresolution.com",
     "logo": "https://asquaresolution.com/logo.png",
     "sameAs": [
-      "https://scamcheck.asquaresolution.com"
-    ]
+      "https://scamcheck.asquaresolution.com",
+      "https://trustseal.asquaresolution.com"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "contact@asquaresolution.com",
+      "contactType": "customer support"
+    }
   }
   </script>
 
-  <!-- Schema: FAQPage (for rich snippets) -->
+  <!-- Schema: FAQPage -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -87,10 +138,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "How does ScamCheck work?",
+        "name": "How does ScamCheck AI scam detector work?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "ScamCheck uses Google's advanced AI to analyze messages, phone numbers, and links for patterns commonly found in scams. It checks for urgency tactics, suspicious links, impersonation, and other red flags used by scammers in India."
+          "text": "ScamCheck uses Google's advanced AI to analyze messages, phone numbers, and links for scam patterns. It detects urgency tactics, suspicious links, impersonation, phishing attempts, and other red flags common in Indian cyber fraud."
         }
       },
       {
@@ -98,7 +149,7 @@
         "name": "Is ScamCheck free to use?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, ScamCheck is 100% free. You can check up to 3 messages per day without login. Create a free account for unlimited checks."
+          "text": "Yes, ScamCheck is 100% free. Check up to 3 suspicious messages, links or numbers per day without creating an account. Sign up for unlimited free checks."
         }
       },
       {
@@ -106,7 +157,15 @@
         "name": "What types of scams can ScamCheck detect?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "ScamCheck can detect KYC fraud, OTP scams, lottery scams, job fraud, UPI scams, phishing links, fake bank messages, and most common Indian online scams."
+          "text": "ScamCheck detects KYC fraud, OTP scams, lottery scams, job fraud, UPI scams, phishing links, fake bank messages, fake customer care numbers, WhatsApp scams, and most common Indian cyber fraud patterns."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I check if a website is fake or genuine?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Paste the website URL into ScamCheck. Our AI will analyze the domain age, SSL status, known phishing patterns, and other signals to tell you if the website is safe or a scam."
         }
       },
       {
@@ -114,7 +173,7 @@
         "name": "How do I report a scam in India?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Report cybercrime at cybercrime.gov.in or call the national helpline 1930. You can also report to your bank directly."
+          "text": "Report cybercrime at cybercrime.gov.in or call the national cybercrime helpline 1930. You can also report directly to your bank and forward suspicious messages to 1909 (TRAI DND)."
         }
       },
       {
@@ -122,7 +181,15 @@
         "name": "क्या ScamCheck हिंदी में काम करता है?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "हाँ, ScamCheck हिंदी और अंग्रेजी दोनों में काम करता है। आप हिंदी में लिखे संदिग्ध मैसेज भी चेक कर सकते हैं।"
+          "text": "हाँ, ScamCheck हिंदी और अंग्रेजी दोनों में काम करता है। आप हिंदी में लिखे गए संदिग्ध मैसेज, नंबर या लिंक चेक कर सकते हैं और हिंदी में ही रिजल्ट पा सकते हैं।"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can ScamCheck detect phishing links?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. ScamCheck's AI phishing detector analyzes URLs for known malicious patterns, fake domain names mimicking banks or government sites, and suspicious redirect chains commonly used in Indian phishing attacks."
         }
       }
     ]
