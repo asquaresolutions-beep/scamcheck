@@ -13,7 +13,7 @@ ScamCheck uses Google's Gemini AI to analyze suspicious content and deliver a cl
 - **AI-powered scam detection** — paste any message, URL, or phone number for instant analysis
 - **Multi-format input** — text messages, WhatsApp forwards, phishing links, unknown numbers
 - **Scam type classification** — phishing, KYC fraud, OTP scams, lottery scams, job fraud, fake bank alerts
-- **Hindi & English support** — full bilingual UI and AI responses
+- **Multilingual AI support** — full bilingual UI and AI responses
 - **Daily free checks** — 3 checks/day without account; 10/day with free login
 - **Scam alerts feed** — live community-reported scam database
 - **Educational content** — guides on scam types, how to report, and how to protect yourself
@@ -23,7 +23,7 @@ ScamCheck uses Google's Gemini AI to analyze suspicious content and deliver a cl
 
 | Layer | Technology |
 |-------|------------|
-| Frontend | React 18, Vite, plain CSS with CSS variables |
+| Frontend | React 18, Vite, Custom CSS architecture with CSS variables |
 | AI | Google Gemini 2.5 Flash via Cloud Functions |
 | Auth | Firebase Authentication (Google OAuth + Email) |
 | Database | Firestore |
