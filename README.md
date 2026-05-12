@@ -24,7 +24,7 @@ ScamCheck uses Google's Gemini AI to analyze suspicious content and deliver a cl
 | Layer | Technology |
 |-------|------------|
 | Frontend | React 18, Vite, plain CSS with CSS variables |
-| AI | Google Gemini 1.5 Flash via Cloud Functions |
+| AI | Google Gemini 2.5 Flash via Cloud Functions |
 | Auth | Firebase Authentication (Google OAuth + Email) |
 | Database | Firestore |
 | Analytics | GA4 + Firebase Analytics |
@@ -48,7 +48,7 @@ ScamCheck uses Google's Gemini AI to analyze suspicious content and deliver a cl
 
 ## AI Usage
 
-ScamCheck uses **Google Gemini 1.5 Flash** for:
+ScamCheck uses **Google Gemini 2.5 Flash** for:
 - Pattern recognition in scam messages
 - Link and domain analysis
 - Phone number fraud signals
