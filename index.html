@@ -52,7 +52,7 @@
     })();
   </script>
 
-  <!-- Google Analytics 4 -->
+  <!-- Google Analytics 4 — ID injected from VITE_GA_MEASUREMENT_ID at build time -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPQVF41ZYM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -103,13 +103,6 @@
       "priceCurrency": "INR",
       "description": "Free — check up to 3 scams per day without login"
     },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "312",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
     "provider": {
       "@type": "Organization",
       "name": "A Square Solutions",
@@ -132,7 +125,7 @@
       "width": 400,
       "height": 100
     },
-    "description": "A Square Solutions is an AI & Digital Growth agency. Products include ScamCheck (AI scam detector) and TrustSeal (AI trust verification). Serving users worldwide.",
+    "description": "A Square Solutions is an AI & Digital Growth agency. Products include ScamCheck (AI scam detector) and TrustSeal (AI trust verification). Production AI engineering is documented at AI Execution Lab (lab.asquaresolution.com). Serving users worldwide.",
     "foundingDate": "2023",
     "address": {
       "@type": "PostalAddress",
@@ -141,7 +134,8 @@
     "sameAs": [
       "https://asquaresolution.com",
       "https://scamcheck.asquaresolution.com",
-      "https://trustseal.asquaresolution.com"
+      "https://trustseal.asquaresolution.com",
+      "https://lab.asquaresolution.com"
     ],
     "contactPoint": {
       "@type": "ContactPoint",
@@ -231,11 +225,22 @@
           "@type": "Answer",
           "text": "Yes. ScamCheck's AI phishing detector analyzes URLs for known malicious patterns, fake domain names mimicking banks or government sites, and suspicious redirect chains commonly used in Indian phishing attacks."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Who built ScamCheck?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ScamCheck is built by A Square Solutions, an AI and Digital Growth agency based in India. The full build architecture and production failures encountered during development are documented at AI Execution Lab (lab.asquaresolution.com). The companion website trust verification product is TrustSeal (trustseal.asquaresolution.com)."
+        }
       }
     ]
   }
   </script>
-  <script type="module" crossorigin src="/assets/index-DgJYA_hQ.js"></script>
+  <script type="module" crossorigin src="/assets/index-BSh-A9BE.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/vendor-react-CPrnAzYj.js">
+  <link rel="modulepreload" crossorigin href="/assets/vendor-ui-BY8VAiqL.js">
+  <link rel="modulepreload" crossorigin href="/assets/vendor-firebase-CHH_HX3B.js">
   <link rel="stylesheet" crossorigin href="/assets/index-dZvxNGgz.css">
 </head>
 <body>
