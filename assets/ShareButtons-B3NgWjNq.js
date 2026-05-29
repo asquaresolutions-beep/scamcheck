@@ -1,4 +1,4 @@
-import{j as e}from"./index-BSh-A9BE.js";import{r as p}from"./vendor-react-CPrnAzYj.js";import{r as l,F as h,T as d,s as b,t as m,z as x}from"./vendor-ui-BY8VAiqL.js";function j({text:t,url:a}){const[s,r]=p.useState(!1),o=encodeURIComponent(t),n=encodeURIComponent(a),i=`🚨 *स्कैम अलर्ट!* 🚨
+import{j as e}from"./index-Dm2Ot3v_.js";import{r as p}from"./vendor-react-CPrnAzYj.js";import{r as l,F as h,T as d,s as b,t as m,z as x}from"./vendor-ui-BY8VAiqL.js";function j({text:t,url:a}){const[s,r]=p.useState(!1),o=encodeURIComponent(t),n=encodeURIComponent(a),i=`🚨 *स्कैम अलर्ट!* 🚨
 
 ${t}
 
