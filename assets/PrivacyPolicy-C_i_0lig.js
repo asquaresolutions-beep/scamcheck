@@ -1,4 +1,4 @@
-import{a,j as e}from"./index-Dm2Ot3v_.js";import{S as s}from"./vendor-ui-BY8VAiqL.js";import"./vendor-react-CPrnAzYj.js";import"./vendor-firebase-DkVUjfus.js";const i=[{title:"1. Overview",content:`This Privacy Policy explains how A Square Solutions ("we", "us", "our") collects, uses, and protects your information when you use ScamCheck (scamcheck.asquaresolution.com) — our free AI-powered scam detection tool.
+import{a,j as e}from"./index-vOlvCRQf.js";import{S as s}from"./vendor-ui-BY8VAiqL.js";import"./vendor-react-CPrnAzYj.js";import"./vendor-firebase-DkVUjfus.js";const i=[{title:"1. Overview",content:`This Privacy Policy explains how A Square Solutions ("we", "us", "our") collects, uses, and protects your information when you use ScamCheck (scamcheck.asquaresolution.com) — our free AI-powered scam detection tool.
 
 By using ScamCheck, you agree to the practices described in this policy. This policy applies globally to all users.`},{title:"2. Information We Collect",content:`Account Data: If you sign up, we collect your email address and display name via Firebase Authentication (Google OAuth or Email/Password).
 
