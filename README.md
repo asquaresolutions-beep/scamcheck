@@ -6,6 +6,8 @@ ScamCheck uses Google's Gemini AI to analyze suspicious content and deliver a cl
 
 **Live app:** https://scamcheck.asquaresolution.com
 
+> **Heads up:** The **production** ScamCheck now runs on the [AI Execution Lab platform](https://github.com/asquaresolutions-beep/ai-execution-lab) (Next.js). This repository holds the earlier standalone **React + Vite** build.
+
 ---
 
 ## Features
